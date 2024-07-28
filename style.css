@@ -1,0 +1,11 @@
+#ab::-webkit-scrollbar{
+display: none;
+}
+
+@media(max-width: 400px) {
+    img {
+        width: 66vw !important;
+        height: 30vh !important; /* Responsive width for small devices */
+    }
+}
+/* [@media(max-width:400px)]:w-[66vw] [@media(max-width:400px)]:h-[30vh] */
